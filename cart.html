@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="bootstrap-5.3.0-alpha3/dist/css/bootstrap.min.css">
+    <!-- OWl CSS -->
+    <link rel="stylesheet" href="OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/owl.theme.default.min.css">
+
+    <!-- Slick CSS -->
+    <link rel="stylesheet" href="../slick-1.8.1/slick/slick.css">
+    <link rel="stylesheet" href="../slick-1.8.1/slick/slick-theme.css">
+
+    <!-- Icon Font CSS -->
+    <link rel="stylesheet" href="icofont/icofont.min.css">
+
+    <!-- Main style CSS -->
+    <link rel="stylesheet" href="cart-style.css">
+
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+</head>
+
+<body>
+    <div class="body-wrapper">
+        <!-- HEADER AREA START -->
+        <header class="header-area">
+            <!-- Header Top Area Start -->
+            <div class="header-top-area">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-7 col-sm-6">
+                            <div class="top-bar-menu">
+                                <ul>
+                                    <li><a href="#"><i class="icofont-email"></i> info@webmail.com</a></li>
+                                    <li><a href="#"><i class="icofont-location-pin"></i>15/A, Nest Tower, NYC</a></li>
+                                </ul>
+                            </div>
+
+                        </div>
+                        <div class="col-md-5 col-sm-6">
+                            <div class="top-bar-right">
+                                <ul>
+                                    <li><a href="#">English <i class="icofont-long-arrow-down"></i></a></li>
+                                    <li>
+                                        <div class="socail-media">
+                                            <i class="icofont-facebook"></i>
+                                            <i class="icofont-twitter"></i>
+                                            <i class="icofont-instagram"></i>
+                                            <i class="icofont-dribbble"></i>
+                                        </div>
+                                    </li>
+                                </ul>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Header Top Area End -->
+            <!-- Header Middle Area Start -->
+            <div class="header-middle-area">
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            <div class="site-logo">
+                                <a href="PT.html"><img src="img/logo.png" alt=""></a>
+                            </div>
+                        </div>
+                        <div class="col center">
+                            <div class="header-contact-search">
+                                <div class="future-item">
+                                    <div class="header-future-icon">
+                                        <i class="icofont-ui-call"></i>
+                                    </div>
+                                    <div class="header-future-info">
+                                        <h6>Phone</h6>
+                                        <p><a href="#">+0123-426-789</a></p>
+                                    </div>
+                                </div>
+                                <div class="header-search-2">
+                                    <form action="" id="123">
+                                        <input type="text" placeholder="Search here...">
+                                        <button type="submit"><i class="icofont-ui-search"></i></button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="header-option">
+                                <ul>
+                                    <li class="margin-right"><a href="#"><i class="icofont-ui-user"></i></a></li>
+                                    <li>
+                                        <div class="mini-cart">
+                                            <a href="#">
+                                                <span>
+                                                    <i class="icofont-shopping-cart"></i>
+                                                    <sup class="total-carts-item">2</sup>
+                                                </span>
+                                                <h6>
+                                                    <span>Your Cart</span>
+                                                    <span>$<span id="total-pay">89.25</span></span>
+                                                </h6>
+                                            </a>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Header Middle Area End -->
+            <!-- Header Bottom Area Start -->
+            <div class="header-bottom-area">
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            <div class="sticky-logo"></div>
+                            <div class="header-menu">
+                                <nav>
+                                    <div class="main-menu">
+                                        <ul id="navbar">
+                                            <li class="logo-moblie"><img src="img/logo.png" alt=""></li>
+                                            <li><a href="#">Home+</a></li>
+                                            <li><a href="#">About+</a></li>
+                                            <li><a href="#">Shop+</a></li>
+                                            <li><a href="#">News+</a></li>
+                                            <li><a href="#">Pages+</a></li>
+                                            <li><a href="#">Contact</a></li>
+                                            <li><a id="close" href="#"><i class="icofont-close"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="" id="mobile">
+                <div class="container">
+                    <div class="mobile-flex">
+                        <a href="#">MENU</a>
+                        <a href="#"><i id="bar" class="icofont-navigation-menu"></i></a>
+                    </div>
+                </div>
+            </div>
+            <!-- Header Bottom Area End -->
+        </header>
+        <!-- HEADER AREA END -->
+        <!-- SHOPPING CART AREA START -->
+        <div class="shopping-cart-area">
+            <div class="container">
+                <div class="shopping-cart-table">
+                    <table class="table">
+                        <tbody class="load-carts">
+                            <tr>
+                                <td class="cart-product-revome">x</td>
+                                <td class="cart-product-image"><a href="#"><img src="img/1 (3).png" alt=""></a></td>
+                                <td class="cart-product-info">
+                                    <h4><a href="#">Vegetables Juices</a></h4>
+                                </td>
+                                <td class="cart-product-price">$149.00</td>
+                                <td class="cart-product-quantity">
+                                    <div class="cart-plus-minus">
+                                        <div class="dec qtybutton">-</div>
+                                        <input type="text">
+                                        <div class="inc qtybutton">+</div>
+                                    </div>
+                                </td>
+                                <td class="cart-product-subtotal">
+                                    $298.00
+                                </td>
+
+                            </tr>
+                            <tr class="cart-coupon-row">
+                                <td colspan="6">
+                                    <div class="cart-coupon">
+                                        <input type="text" placeholder="Coupon code">
+                                        <button type="submit">Apply coupon</button>
+                                    </div>
+                                </td>
+                                <td>
+                                    <button class="update-cart" type="submit">Update Cart</button>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="shopping-cart-total">
+                    <h4>Cart Totals</h4>
+                    <table class="table">
+                        <tbody>
+                            <tr>
+                                <td>Cart Subtotal</td>
+                                <td>$ <span class="cart-subtotal">618.00</span> </td>
+                            </tr>
+                            <tr>
+                                <td>Shipping and Handing</td>
+                                <td>$00.00</td>
+                            </tr>
+                            <tr>
+                                <td>Vat</td>
+                                <td>$00.00</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Order Total</strong></td>
+                                <td><strong>$ <span class="oder-total">633.00</span> </strong></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <div class="btn-wrapper">
+                        <a href="#">Proceed to checkout</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- SHOPPING CART AREA END -->
+        <!-- FOOTER AREA START -->
+        <footer>
+            <div class="row">
+                <div class="col-xl-3">
+                    <div class="footer-widget">
+                        <img src="img/logo.png" alt="">
+                        <p>Lorem Ipsum is simply dummy text of the and typesetting industry. Lorem Ipsum is dummy text
+                            of the printing.</p>
+                        <p><i class="icofont-location-pin"></i>Brooklyn, New York, United States</p>
+                        <p><i class="icofont-phone"></i>+0123-456789</p>
+                        <p><i class="icofont-email"></i>example@example.com</p>
+                        <p><i class="icofont-facebook"></i>
+                            <i class="icofont-twitter"></i>
+                            <i class="icofont-linkedin"></i>
+                            <i class="icofont-youtube-play"></i>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-xl-2">
+                    <div class="footer-widget">
+                        <h4>Company</h4>
+                        <a href="#">About</a>
+                        <a href="#">Blog</a>
+                        <a href="#">All Products</a>
+                        <a href="#">Locations Map</a>
+                        <a href="#">FAQ</a>
+                        <a href="#">Contact Us</a>
+                    </div>
+                </div>
+                <div class="col-xl-2">
+                    <div class="footer-widget">
+                        <h4>Services</h4>
+                        <a href="#">Oder Tracking</a>
+                        <a href="#">Wish List</a>
+                        <a href="#">Login</a>
+                        <a href="#">My account</a>
+                        <a href="#">Terms & Conditions</a>
+                        <a href="#">Promotional Offers</a>
+                    </div>
+                </div>
+                <div class="col-xl-2">
+                    <div class="footer-widget">
+                        <h4>Customer Care</h4>
+                        <a href="#">Login</a>
+                        <a href="#">My account</a>
+                        <a href="#">Wish list</a>
+                        <a href="#">My account</a>
+                        <a href="#">Terms & Conditions</a>
+                        <a href="#">Conatct Us</a>
+                    </div>
+                </div>
+                <div class="col-xl-3">
+                    <div class="footer-widget">
+                        <h4>Newsletter</h4>
+                        <p>Subscribe to our weekly Newsletter and receive updates via email.</p>
+                        <div class="form">
+                            <input type="text" placeholder="Email*">
+                            <button class="normal"><i class="icofont-location-arrow"></i></button>
+                        </div>
+                        <h5>We Accept</h5>
+                        <img src="img/payment-4.png" class="payment" alt="">
+
+                    </div>
+                </div>
+            </div>
+            <div class="copyright-area">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="copyright-design">
+                            <p>All Rights Reserved @ Company 2023</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="copyright-menu">
+                            <ul>
+                                <li>Terms & Conditions</li>
+                                <li>Claim</li>
+                                <li>Privacy & Policy</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- FOOTER AREA END -->
+
+    </div>
+
+    <!-- Jquery JS -->
+    <script src=" jquery-3.6.4.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Owl JS -->
+    <script src="assets/owl.carousel.min.js"></script>
+
+    <!-- Slick JS -->
+    <script src="../slick-1.8.1/slick/slick.min.js"></script>
+
+
+    <!-- Main JS -->
+    <script src="script.js"></script>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".home-slider", {
+            spaceBetween: 30,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+        });
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 4,
+            spaceBetween: 30,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+        });
+        $('.multiple-items').slick({
+            infinite: true,
+            slidesToShow: 4,
+            slidesToScroll: 3
+        });
+    </script>
+
+
+    </script>
+
+</body>
+
+</html>
